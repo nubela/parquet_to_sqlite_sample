@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "adam-ashwal-sqlite-export"
+version = "0.1.0"
+description = ""
+authors = ["Steven Goh"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"manage.py" = "^0.2.10"
+pyarrow = "^3.0.0"
+pandas = "^1.2.3"
+sqlalchemy = "^1.4.0"
+alembic = "^1.5.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
